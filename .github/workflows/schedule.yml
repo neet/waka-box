@@ -1,8 +1,8 @@
 name: Update gist with WakaTime stats
 on:
-  issue_comment:
-    types:
-      - created
+  push:
+    branches:
+      - master
   schedule:
     - cron: "0 0 * * *"
 jobs:
